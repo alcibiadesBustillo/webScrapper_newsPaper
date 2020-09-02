@@ -1,20 +1,3 @@
-# webScrapper_newsPaper
-Web Scrapper for newspapers
-
-
-## Libraries
-- requests
-- bs4 (BeautifulSoup)
-- pandas
-- logging
-- re
-- sqlalchemy
-- subprocess
-- pandas
-- argparse
-- yaml
-- csv
-
 # News web scrapper
 > Scrapping newspaper sites using python.
 
@@ -23,26 +6,27 @@ In our example we select websites of newspapers identifying the title and body t
 
 ![](header.png)
 
-## Usage example
+## Dependencies
+Python 3
 
+## Usage
+```shell
+python3 -m venv .env
+source .env/bin/activate
+pip install -r requirements.txt
+```
 To scrape the newspage site run the following command
 
 ```sh
 python3 pipeline.py
 ```
 
-## Release History
+## License
+[This project is under MIT License](https://opensource.org/licenses/MIT)
 
-* 0.0.1
-    * Work in progress
-
-## Meta
-
-Alcibiades Bustillo – [@YourTwitter](https://twitter.com/albuzar) – bustillo.alcibiades@gmail.com
-
-Distributed under the MIT license. See ``LICENSE`` for more information.
-
-[https://github.com/alcibiadesBustillo/webScrapper_newsPaper](https://github.com/alcibiadesBustillo/)
-
+## Course
 ### Note
-This project was done following the Data Engineering Course with Python of Platzi.
+This project was done following the  of Platzi [Data Engineering Course with Python](https://platzi.com/clases/ingenieria-datos/)
+
+
+
